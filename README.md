@@ -19,6 +19,7 @@ This will run SonarQube at [locahost:9000](http://localhost:9000).
 Wait for SonarQube to start, then run:
 
 `./gradlew sonarqube`
+or 
 `./gradlew sonarqube \ -Dsonar.projectKey=sonar \ -Dsonar.host.url=http://localhost:9000 \ -Dsonar.login=key`
 
 ## Stopping
